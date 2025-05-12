@@ -11,7 +11,7 @@ public class DBConnection {
 
     public static Connection getConnection() {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver"); // Updated driver class
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(url, user, pass);
         } catch (Exception e) {
             System.out.println("Database not connected!");
