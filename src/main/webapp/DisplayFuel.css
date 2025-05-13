@@ -5,6 +5,12 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f2f2f2;
+	 background-image: url('imgs/fuel.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
 }
 
 header, footer {

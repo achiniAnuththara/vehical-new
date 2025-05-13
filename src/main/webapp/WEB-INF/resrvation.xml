@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+
+     <servlet>
+     	<servlet-name>InsertReservationServlet</servlet-name>
+     	<servlet-class>addreservationpacakage.InsertReservationServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>InsertReservationServlett</servlet-name>
+     	<url-pattern>/InsertReservationServlet</url-pattern>
+     </servlet-mapping>
+
+ <servlet>
+     	<servlet-name>ReservationGetAllservlet</servlet-name>
+     	<servlet-class>addreservationpacakage.ReservationGetAllservlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>ReservationGetAllservlet</servlet-name>
+     	<url-pattern>/GetAllReservationsServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>UpdateReservationServlet</servlet-name>
+     	<servlet-class>addreservationpacakage.UpdateReservationServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateReservationServlet</servlet-name>
+     	<url-pattern>/UpdateReservationServlet</url-pattern>
+     </servlet-mapping>
+
+ <servlet>
+     	<servlet-name>ReservationDeleteServlet</servlet-name>
+     	<servlet-class>addreservationpacakage.ReservationDeleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>ReservationDeleteServlet</servlet-name>
+     	<url-pattern>/ReservationDeleteServlet</url-pattern>
+     </servlet-mapping>
+
+</web-app>

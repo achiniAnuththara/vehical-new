@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>InsertServiceServlet</servlet-name>
+        <servlet-class>services.InsertServiceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InsertServiceServlet</servlet-name>
+        <url-pattern>/InsertServiceServlet</url-pattern>
+    </servlet-mapping>
+	   
+     <servlet>
+     	<servlet-name> GetAllServlet1</servlet-name>
+     	<servlet-class>services.GetAllServlet1</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>GetAllServlet1</servlet-name>
+     	<url-pattern>/GetAllServlet1</url-pattern>
+     </servlet-mapping>
+     <servlet>
+     	<servlet-name> UpdateServlet1</servlet-name>
+     	<servlet-class>services.UpdateServlet1</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateServlet1</servlet-name>
+     	<url-pattern>/UpdateServlet1</url-pattern>
+     </servlet-mapping>
+     <servlet>
+     	<servlet-name> DeleteServlet1</servlet-name>
+     	<servlet-class>services.Deleteservlet1</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>DeleteServlet1</servlet-name>
+     	<url-pattern>/DeleteServlet1</url-pattern>
+     </servlet-mapping>
+     
+     
+</web-app>

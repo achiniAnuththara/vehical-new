@@ -42,6 +42,81 @@
      	<url-pattern>/DeleteServlet</url-pattern>
      </servlet-mapping>
      
+     
+      <servlet>
+        <servlet-name>InsertServiceServlet</servlet-name>
+        <servlet-class>services.InsertServiceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InsertServiceServlet</servlet-name>
+        <url-pattern>/InsertServiceServlet</url-pattern>
+    </servlet-mapping>
+	   
+     <servlet>
+     	<servlet-name> GetAllServlet1</servlet-name>
+     	<servlet-class>services.GetAllServlet1</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>GetAllServlet1</servlet-name>
+     	<url-pattern>/GetAllServlet1</url-pattern>
+     </servlet-mapping>
+     <servlet>
+     	<servlet-name> UpdateServlet1</servlet-name>
+     	<servlet-class>services.UpdateServlet1</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateServlet1</servlet-name>
+     	<url-pattern>/UpdateServlet1</url-pattern>
+     </servlet-mapping>
+     <servlet>
+     	<servlet-name> DeleteServlet1</servlet-name>
+     	<servlet-class>services.Deleteservlet1</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>DeleteServlet1</servlet-name>
+     	<url-pattern>/DeleteServlet1</url-pattern>
+     </servlet-mapping>
+     
+      <servlet>
+     	<servlet-name>InsertReservationServlet</servlet-name>
+     	<servlet-class>addreservationpacakage.InsertReservationServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>InsertReservationServlett</servlet-name>
+     	<url-pattern>/InsertReservationServlet</url-pattern>
+     </servlet-mapping>
+
+ <servlet>
+     	<servlet-name>ReservationGetAllservlet</servlet-name>
+     	<servlet-class>addreservationpacakage.ReservationGetAllservlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>ReservationGetAllservlet</servlet-name>
+     	<url-pattern>/GetAllReservationsServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>UpdateReservationServlet</servlet-name>
+     	<servlet-class>addreservationpacakage.UpdateReservationServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateReservationServlet</servlet-name>
+     	<url-pattern>/UpdateReservationServlet</url-pattern>
+     </servlet-mapping>
+
+ <servlet>
+     	<servlet-name>ReservationDeleteServlet</servlet-name>
+     	<servlet-class>addreservationpacakage.ReservationDeleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>ReservationDeleteServlet</servlet-name>
+     	<url-pattern>/DeleteServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+
+     
 
 
 </web-app>

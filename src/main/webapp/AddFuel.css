@@ -1,8 +1,13 @@
 @charset "UTF-8";
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
+  
+
+	 background-image: url('imgs/fuel.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
 }
 
 form {
