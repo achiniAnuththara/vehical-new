@@ -1,21 +1,20 @@
 package OnlineVehicleServicePackage;
 
-
 import java.time.LocalDate;
 
 public class FuelModel {
 	private int fuel_id;
-    private String fuel_type;
-    private double quantity_liters;
-    private double price_per_liter;
-    private double total_price;
-    private String  supplier_name;
-    private LocalDate added_date;
-    
-	public FuelModel(int fuel_id,String fuel_type, double quantity_liters, double price_per_liter,String supplier_name,
-			LocalDate added_date) {
+	private String fuel_type;
+	private double quantity_liters;
+	private double price_per_liter;
+	private double total_price;
+	private String supplier_name;
+	private LocalDate added_date;
+
+	public FuelModel(int fuel_id, String fuel_type, double quantity_liters, double price_per_liter,
+			String supplier_name, LocalDate added_date) {
 		super();
-		this.fuel_id=fuel_id;
+		this.fuel_id = fuel_id;
 		this.fuel_type = fuel_type;
 		this.quantity_liters = quantity_liters;
 		this.price_per_liter = price_per_liter;
@@ -81,7 +80,5 @@ public class FuelModel {
 	public void setAdded_date(LocalDate added_date) {
 		this.added_date = added_date;
 	}
-	
-    
-    
+
 }
